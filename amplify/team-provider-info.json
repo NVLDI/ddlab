@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ddlab-dev-83617-authRole",
+      "UnauthRoleArn": "arn:aws:iam::578030411854:role/amplify-ddlab-dev-83617-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::578030411854:role/amplify-ddlab-dev-83617-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ddlab-dev-83617-deployment",
+      "UnauthRoleName": "amplify-ddlab-dev-83617-unauthRole",
+      "StackName": "amplify-ddlab-dev-83617",
+      "StackId": "arn:aws:cloudformation:ap-south-1:578030411854:stack/amplify-ddlab-dev-83617/7858fba0-6949-11ed-9806-0a8a9b1469da",
+      "AmplifyAppId": "d3h1apagjphp9b"
+    },
+    "categories": {
+      "api": {
+        "ddlab": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3h1apagjphp9b",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "ddlab1e1247c8": {}
+      }
+    }
+  }
+}
