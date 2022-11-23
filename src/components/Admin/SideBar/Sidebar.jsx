@@ -40,6 +40,16 @@ export default function Sidebar() {
             <NavText>
                 Product listing
             </NavText>
+            <NavItem>
+            <NavText>
+                List By table
+            </NavText>
+            </NavItem> 
+            <NavItem>
+            <NavText>
+                List By Label
+            </NavText>
+            </NavItem> 
             </NavItem> 
         </NavItem>
         <NavItem eventKey="distributor">
@@ -49,7 +59,7 @@ export default function Sidebar() {
             <NavText>
                 Distributor
             </NavText>
-            <NavItem eventKey="adddistributor">
+            <NavItem eventKey="DistributorFullReg">
             <NavText>
                 Add Distributor
             </NavText>

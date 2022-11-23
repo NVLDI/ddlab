@@ -18,11 +18,26 @@ type Addproduct @model {
 }
 type AddDistributor @model {
   id: ID!
+  firstname: String
+  lastname: String
+  nicNo:String
+  address:String
+  state:String
+  country:String
+  zipCode:String
+  occupation:String
   username: String!
   password: String!
   confirmPassword: String!
+  phoneNo:String
+  bankName:String
+  accountNo:String
+  shiftCode:String
+  bankAddress:String
+  backcountry:String
   email: String!
   sponsorId: String!
+  
 }
 type AddAdmin @model {
   id: ID!

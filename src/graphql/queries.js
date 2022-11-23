@@ -52,9 +52,23 @@ export const getAddDistributor = /* GraphQL */ `
   query GetAddDistributor($id: ID!) {
     getAddDistributor(id: $id) {
       id
+      firstname
+      lastname
+      nicNo
+      address
+      state
+      country
+      zipCode
+      occupation
       username
       password
       confirmPassword
+      phoneNo
+      bankName
+      accountNo
+      shiftCode
+      bankAddress
+      backcountry
       email
       sponsorId
       createdAt
@@ -71,9 +85,23 @@ export const listAddDistributors = /* GraphQL */ `
     listAddDistributors(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
+        firstname
+        lastname
+        nicNo
+        address
+        state
+        country
+        zipCode
+        occupation
         username
         password
         confirmPassword
+        phoneNo
+        bankName
+        accountNo
+        shiftCode
+        bankAddress
+        backcountry
         email
         sponsorId
         createdAt

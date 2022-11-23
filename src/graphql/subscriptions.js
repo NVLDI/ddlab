@@ -73,9 +73,23 @@ export const onCreateAddDistributor = /* GraphQL */ `
   ) {
     onCreateAddDistributor(filter: $filter) {
       id
+      firstname
+      lastname
+      nicNo
+      address
+      state
+      country
+      zipCode
+      occupation
       username
       password
       confirmPassword
+      phoneNo
+      bankName
+      accountNo
+      shiftCode
+      bankAddress
+      backcountry
       email
       sponsorId
       createdAt
@@ -89,9 +103,23 @@ export const onUpdateAddDistributor = /* GraphQL */ `
   ) {
     onUpdateAddDistributor(filter: $filter) {
       id
+      firstname
+      lastname
+      nicNo
+      address
+      state
+      country
+      zipCode
+      occupation
       username
       password
       confirmPassword
+      phoneNo
+      bankName
+      accountNo
+      shiftCode
+      bankAddress
+      backcountry
       email
       sponsorId
       createdAt
@@ -105,9 +133,23 @@ export const onDeleteAddDistributor = /* GraphQL */ `
   ) {
     onDeleteAddDistributor(filter: $filter) {
       id
+      firstname
+      lastname
+      nicNo
+      address
+      state
+      country
+      zipCode
+      occupation
       username
       password
       confirmPassword
+      phoneNo
+      bankName
+      accountNo
+      shiftCode
+      bankAddress
+      backcountry
       email
       sponsorId
       createdAt
