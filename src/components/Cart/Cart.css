@@ -1,0 +1,45 @@
+.split {
+  margin-top: 30px;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    width:70%;
+    background-color: white;
+  }
+
+  .right {
+    right: 0;
+    background-color: rgb(219, 219, 219);
+  }
+  .centered {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .paymentOption
+  {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .CartContainer
+  {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .ProductImg-0
+  {
+    width: 200px;
+    height: 200px;
+  }
+  .Payment
+  {
+    left: 50%;
+    top: 50%;
+  }

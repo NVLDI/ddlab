@@ -34,10 +34,11 @@ type AddDistributor @model {
   accountNo:String
   shiftCode:String
   bankAddress:String
-  backcountry:String
+  bankcountry:String
   email: String!
   sponsorId: String!
-  
+  sponsorName: String
+  contactNo: String
 }
 type AddAdmin @model {
   id: ID!

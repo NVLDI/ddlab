@@ -93,9 +93,11 @@ export const createAddDistributor = /* GraphQL */ `
       accountNo
       shiftCode
       bankAddress
-      backcountry
+      bankcountry
       email
       sponsorId
+      sponsorName
+      contactNo
       createdAt
       updatedAt
     }
@@ -124,9 +126,11 @@ export const updateAddDistributor = /* GraphQL */ `
       accountNo
       shiftCode
       bankAddress
-      backcountry
+      bankcountry
       email
       sponsorId
+      sponsorName
+      contactNo
       createdAt
       updatedAt
     }
@@ -155,9 +159,11 @@ export const deleteAddDistributor = /* GraphQL */ `
       accountNo
       shiftCode
       bankAddress
-      backcountry
+      bankcountry
       email
       sponsorId
+      sponsorName
+      contactNo
       createdAt
       updatedAt
     }

@@ -68,9 +68,11 @@ export const getAddDistributor = /* GraphQL */ `
       accountNo
       shiftCode
       bankAddress
-      backcountry
+      bankcountry
       email
       sponsorId
+      sponsorName
+      contactNo
       createdAt
       updatedAt
     }
@@ -101,9 +103,11 @@ export const listAddDistributors = /* GraphQL */ `
         accountNo
         shiftCode
         bankAddress
-        backcountry
+        bankcountry
         email
         sponsorId
+        sponsorName
+        contactNo
         createdAt
         updatedAt
       }

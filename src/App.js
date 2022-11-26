@@ -16,6 +16,9 @@ import AddProduct from "./components/Admin/DashboardPages/Product/AddProduct";
 import DistributorFullReg from "./components/Admin/DashboardPages/Distributor/DistributorFullRegistration";
 import DistributorListing from "./components/Admin/DashboardPages/Distributor/DistributorListing";
 import ProductListing from './components/Admin/DashboardPages/Product/ProductListing';
+import DistibutorProfile from './components/Distributor/DistibutorProfile';
+import SelectedProduct from './components/Products/SelectedProductList/SelectedProductList'
+import Cart from './components/Cart/Cart'
 
 Amplify.configure(awsconfig)
 function App() {
@@ -34,10 +37,14 @@ function App() {
                 <Route exact path="/DistributorReg" element={<DistributorReg/>}/>
                 <Route exact path="/distributorListing" element={<DistributorListing/>}/>
                 <Route exact path="/DistributorFullReg" element={<DistributorFullReg/>}/>
+                <Route exact path="distibutorProfile" element={<DistibutorProfile/>}/>
 
                 <Route exact path="/Product" element={<Product/>}/>
                 <Route exact path="/addProduct" element={<AddProduct/>}/>
                 <Route exact path="/productListing" element={<ProductListing/>}/>
+                <Route exact path="/selectedProduct" element={<SelectedProduct/>}/>
+
+                <Route exact path="/cart" element={<Cart/>}/>
             </Routes>
     </Router>
     </div>
